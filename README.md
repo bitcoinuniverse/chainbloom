@@ -91,7 +91,7 @@ Bitcoin consensus validates spends, not ChainBloom semantics. There is no
 covenant forcing a successor carrier. A holder can close, abandon, lose, or
 mis-spend a lane. Wallets must therefore isolate and label carrier UTXOs, show
 the exact carrier mapping before signing, and never use them in ordinary coin
-selection. See [docs/security.md](./docs/security.md) and
+selection. See [docs/security-model.md](./docs/security-model.md) and
 [docs/user-guide.md](./docs/user-guide.md).
 
 ## License
