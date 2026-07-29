@@ -40,9 +40,29 @@ The normative format and transition rules are in [SPECIFICATION.md](./SPECIFICAT
 - `vectors/` — valid and invalid binary codec vectors
 - `fixtures/` — golden structural Bitcoin transaction fixtures
 - `test/` — unit, property, fuzz-style, state, builder, and fixture tests
-- `docs/` — user, creator, developer, infrastructure, commercial, governance,
-  security, release, and legal-review documentation
+- `docs/` — technical, user, integration, launch, governance, security, and
+  counsel-review documentation
 - `site/` — dependency-free static public site and SVG brand assets
+
+## Documentation
+
+- [Protocol specification](./SPECIFICATION.md) - normative v1 bytes,
+  validation, and state transitions
+- [Technical whitepaper](./docs/technical-whitepaper.md) and
+  [litepaper](./docs/litepaper.md) - design rationale and accessible overview
+- [Participant](./docs/user-guide.md), [creator](./docs/creator-guide.md),
+  [developer](./docs/developer-guide.md), and
+  [infrastructure](./docs/infrastructure-guide.md) guides
+- [Commercial and ecosystem integration](./docs/commercial-integration.md) -
+  wallet, indexer, API, renderer, service, and marketplace boundaries
+- [Brand guidelines](./docs/brand-guidelines.md) and
+  [launch and media kit](./docs/launch-media-kit.md) - official asset use,
+  factual announcements, press, demo, community, support, and incident content
+- [Draft legal and transparency bundle](./docs/legal-transparency-draft.md) and
+  [legal review checklist](./docs/legal-review.md) - jurisdiction-neutral
+  drafting inputs that require qualified counsel review before use
+- [Documentation map](./docs/README.md) - complete reader paths and governance
+  references
 
 ## Requirements
 
