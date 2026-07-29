@@ -15,8 +15,11 @@ links resolve to the canonical public repository.
 The status panel fails closed and shows no synthetic values. To enable it in a
 deployment, set the `data-status-endpoint` attribute on the `#status` section to
 the absolute or same-origin v1 indexer status route. The response must be the
-top-level status object and include `network`, `indexedHeight`, `tipHeight`,
-`lag`, `synced`, and `nodeAvailable`; malformed, stale, or unavailable data is
+top-level status object and include `network`, `coreChain`, `indexedHeight`,
+`indexedHash`, `tipHeight`, `tipHash`, `headerHeight`, `lag`, `nodeAvailable`,
+`initialBlockDownload`, `synced`, `degraded`, `syncStatus`, and `nodeError`.
+The page labels the service synchronized only when those fields prove exact
+canonical agreement; malformed, stale, forked, IBD, or unavailable data is
 displayed as unavailable or degraded.
 
 ## Publishing
